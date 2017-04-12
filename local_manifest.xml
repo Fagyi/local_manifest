@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
-    <!-- HTC 10 - aka pme -->
-    
-    <project path="device/htc/pme" name="Fagyi/android_device_htc_pme" remote="github" revision="cm-14.1" />
-    <project path="kernel/htc/msm8996" name="Fagyi/IceMan-kernel-pme" remote="github" revision="cm-14.1" />
-    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
+ <!-- HTC 10 - aka pme  -->
+    <project path="device/htc/pme" name="Fagyi/android_device_htc_pme" remote="github" revision="aosip" /> 
+    <project path="hardware/cyanogen" name="android_hardware_cyanogen" remote="laos" revision="cm-14.1" />
+    <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="laos" revision="cm-14.1-caf-8996"/>
+    <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="laos" revision="cm-14.1-caf-8996"/>
+    <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="laos" revision="cm-14.1-caf-8996"/>
+    <project path="kernel/htc/msm8996" name="Fagyi/htc_pme_kernel" remote="github" revision="IceMan" />
+    <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
     <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-14.1" />
-    <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
-    <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
-    <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />  
-
+    <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="laos" revision="cm-14.1" />
+    <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="laos" revision="cm-14.1" />
+    <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_Nfc" remote="laos" revision="cm-14.1" />  
 </manifest>
