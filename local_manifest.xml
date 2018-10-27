@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- HTC 10 - aka pme -->
-    <project path="device/htc/pme" name="Fagyi/android_device_htc_pme" remote="github" revision="lineage-15.1" />
+    <project path="device/htc/pme" name="Fagyi/android_device_htc_pme" remote="github" revision="lineage-16.0" />
     <project path="kernel/htc/msm8996" name="Fagyi/android_kernel_htc_msm8996" remote="github" revision="eas-o-dev" />
-    <project path="vendor/htc" name="Fagyi/proprietary_vendor_htc" remote="github" revision="lineage-15.1" />
-    <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github" revision="lineage-15.1" />
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-15.1" />
+    <project path="vendor/htc" name="Fagyi/proprietary_vendor_htc" remote="github" revision="lineage-16.0" />
+    <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github" revision="lineage-16.0" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
 </manifest>
